@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color:#121211;
+  background-color: #E0FFFF;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #6495ED;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Roboto', sans-serif;
+  color: #FFFAF0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FFFAF0;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #696969;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #696969;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.page-heading{
+  text-align: center;
+}
+#chicken-tile, #beef-tile, #sushi-tile{
+  height: 350px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+  background-color: #FFFFE0;
+  overflow: auto;
+  border: 5px solid #696969;
+}
+h3{
+  text-align: center;
+}
+p {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  }
+ 
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  }
+  
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a { 
+    font-size: 2em;
+  }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+   #collapsable-nav a { 
+    font-size: 2em;
+  }
+}
